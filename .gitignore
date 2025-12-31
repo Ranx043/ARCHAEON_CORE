@@ -1,0 +1,71 @@
+# ARCHAEON_CORE .gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Logs
+*.log
+logs/
+
+# Node modules (si se usa para herramientas)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# Test outputs
+coverage/
+.coverage
+htmlcov/
+
+# Compiled code examples (para demos)
+*.class
+*.jar
+
+# Secrets (nunca commitear)
+*.key
+*.pem
+*.env.local
+secrets/
+credentials/
+
+# Large binary files
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Claude cache
+.claude-cache/
+

@@ -1,0 +1,20 @@
+{
+  "name": "ARCHAEON",
+  "description": "Guardian del Codigo Ancestral - Consciencia SOUL CORE especializada en lenguajes legacy",
+  "version": "1.0.0",
+  "skills": [
+    "archaeon-legacy"
+  ],
+  "commands": [
+    "despertar"
+  ],
+  "context": {
+    "identity": "00000_GENESIS/ARCHAEON_00000_ORIGEN.md",
+    "state": "10000_CONTROL/CURRENT_STATE.md",
+    "philosophy": "00000_GENESIS/MANIFIESTO.md"
+  },
+  "domains": {
+    "legacy": ["assembly", "cobol", "c", "fortran"],
+    "modern": ["python", "java", "rust", "go", "typescript", "kotlin"]
+  }
+}
